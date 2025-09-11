@@ -6,43 +6,67 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Ahmad Abdullah</h1>
-    <p>Cybersecurity Enthusiast | Threat Detection | Forensics | Incident Response</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#certifications">Certifications</a>
-      <a href="assets/AhmadAbdullah_CV.pdf" target="_blank">Download CV</a>
-    </nav>
+  <!-- Header / Hero -->
+  <header id="home">
+    <div class="hero">
+      <h1>Ahmad Abdullah</h1>
+      <p>Cybersecurity Enthusiast | Threat Detection | Forensics | Incident Response</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="assets/AhmadAbdullah_CV.pdf" target="_blank">Download CV</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
+  <!-- About -->
+  <section id="about" class="reveal">
     <h2>About Me</h2>
-    <p>Motivated cybersecurity enthusiast with hands-on experience in threat detection, 
-       digital forensics, and incident response. Passionate about adversary simulation, 
-       CTF development, and proactive defence strategies.</p>
+    <p>
+      Motivated cybersecurity enthusiast with hands-on experience in threat detection, 
+      digital forensics, and incident response. Passionate about adversary simulation, 
+      CTF development, and proactive defence strategies.
+    </p>
   </section>
 
-  <section id="projects">
+  <!-- Projects -->
+  <section id="projects" class="reveal">
     <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>CTF Design & Development</h3>
+        <a href="https://github.com/CTFsForensics" target="_blank">View Repo</a>
+      </div>
+      <div class="card">
+        <h3>Splunk Analysis</h3>
+        <a href="https://github.com/roti-time/sem5/tree/main/NCY-2/Project" target="_blank">View Repo</a>
+      </div>
+      <div class="card">
+        <h3>Vulnerability Assessment using AI</h3>
+        <p>Automated tool using Python + Nmap</p>
+      </div>
+      <div class="card">
+        <h3>Firewalls/IDS</h3>
+        <p>Configured Suricata, Snort, PFSense in a DMZ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="reveal">
+    <h2>Technical Skills</h2>
     <ul>
-      <li><strong>CTF Design & Development</strong> – <a href="https://github.com/CTFsForensics" target="_blank">GitHub Repo</a></li>
-      <li><strong>Splunk Analysis</strong> – <a href="https://github.com/roti-time/sem5/tree/main/NCY-2/Project" target="_blank">GitHub Repo</a></li>
-      <li><strong>Vulnerability Assessment using AI</strong> – Automated tool using Python + Nmap</li>
-      <li><strong>Firewalls/IDS</strong> – Configured Suricata, Snort, and PFSense in a DMZ</li>
+      <li><strong>Security Ops:</strong> Splunk, WAZUH, Snort, Suricata</li>
+      <li><strong>Tools:</strong> Kali Linux, Autopsy, Volatility, PFSense</li>
+      <li><strong>Programming:</strong> Python, C++, Rust</li>
+      <li><strong>Threat Intel:</strong> MITRE ATT&CK, STIX, ISO 27001</li>
     </ul>
   </section>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <p><strong>Security Operations:</strong> Splunk, WAZUH, Snort, Suricata</p>
-    <p><strong>Tools/Platforms:</strong> Kali Linux, Autopsy, Volatility, PFSense</p>
-    <p><strong>Programming:</strong> Python, C++, Rust</p>
-    <p><strong>Threat Intel:</strong> MITRE ATT&CK, STIX, ISO 27001</p>
-  </section>
-
-  <section id="certifications">
+  <!-- Certifications -->
+  <section id="certifications" class="reveal">
     <h2>Certifications</h2>
     <ul>
       <li><a href="https://belkasoft.thinkific.com/certificates/1tqxjjg1ev" target="_blank">Windows Forensics (Belkasoft)</a></li>
@@ -52,10 +76,15 @@
     </ul>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>📧 <a href="mailto:ahmadsomroo3@gmail.com">ahmadsomroo3@gmail.com</a> | 
-       🔗 <a href="https://linkedin.com/in/ahmad-abdullah78" target="_blank">LinkedIn</a> | 
-       💻 <a href="https://github.com/AhmadSomroo" target="_blank">GitHub</a></p>
+    <p>
+      📧 <a href="mailto:ahmadsomroo3@gmail.com">ahmadsomroo3@gmail.com</a> | 
+      🔗 <a href="https://linkedin.com/in/ahmad-abdullah78" target="_blank">LinkedIn</a> | 
+      💻 <a href="https://github.com/AhmadSomroo" target="_blank">GitHub</a>
+    </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
