@@ -1,0 +1,1977 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.97.2",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "ouze5UkNTW8Y",
+			"notePath": [
+				"ouze5UkNTW8Y"
+			],
+			"title": "eJPT",
+			"notePosition": 270,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"attachments": [],
+			"dirFileName": "eJPT",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "GdZaidG9SaIE",
+					"notePath": [
+						"ouze5UkNTW8Y",
+						"GdZaidG9SaIE"
+					],
+					"title": "Assessment Methodologies",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Assessment Methodologies.html",
+					"attachments": [],
+					"dirFileName": "Assessment Methodologies",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "EvJp5BaNEuVr",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"GdZaidG9SaIE",
+								"EvJp5BaNEuVr"
+							],
+							"title": "Information Gathering",
+							"notePosition": 0,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Information Gathering.html",
+							"attachments": [
+								{
+									"attachmentId": "jgldWGxxJxXB",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Information Gathering_imag.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "mOyIkJFc78lQ",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"GdZaidG9SaIE",
+								"mOyIkJFc78lQ"
+							],
+							"title": "Evasion of FW/IDS thru NMAP",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Evasion of FWIDS thru NMAP.html",
+							"attachments": [
+								{
+									"attachmentId": "v4OQthbAJgXj",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Evasion of FWIDS thru NMAP.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "pxtFiHZOVPkX",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"GdZaidG9SaIE",
+								"pxtFiHZOVPkX"
+							],
+							"title": "Enumeration",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Enumeration.html",
+							"attachments": [
+								{
+									"attachmentId": "3kx9Dl6WgN7n",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Enumeration_image.png"
+								},
+								{
+									"attachmentId": "eEU2P4WSsfow",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "gPGUHt9i8wG9",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "q88M7Vgn8hQt",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "Ro3rljayUe6G",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/png",
+									"position": 10,
+									"dataFileName": "4_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "rRTm61GXRuSp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "vYKyO1cGlDcr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "Wz47kk8acB1b",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/png",
+									"position": 10,
+									"dataFileName": "7_Enumeration_image.png"
+								},
+								{
+									"attachmentId": "YaYBSXTed4cA",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/png",
+									"position": 10,
+									"dataFileName": "8_Enumeration_image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "P5GoGJd4fqMp",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"GdZaidG9SaIE",
+								"P5GoGJd4fqMp"
+							],
+							"title": "Vulnerability Assessment",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "label",
+									"name": "autoReadOnlyDisabled",
+									"value": "",
+									"isInheritable": false,
+									"position": 10
+								}
+							],
+							"format": "html",
+							"dataFileName": "Vulnerability Assessment.html",
+							"attachments": [
+								{
+									"attachmentId": "0CIUXj5wA5th",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "1XsWO3N7MFL6",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "293oyjRnSG7a",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "3783AUs3sqas",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "84FfDjXXnAuk",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "8vYes0A9N54u",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "CRCUaCP9MHlr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "dGYQxPIFXJLV",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "GvYPr5GH2pCp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "hnkhHooeGHN4",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "L09eYhqHRuSb",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "n0FskalLm0fB",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "11_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "NUWL3Ii5UA5d",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "12_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "o11nBsZNaV5W",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "13_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "pzK4G8w8DwzH",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "14_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "rw7F9PF2vJ5W",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "15_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "v7OOIBinblKZ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "16_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "WInFWOR2n6KY",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "17_Vulnerability Assessment_i.png"
+								},
+								{
+									"attachmentId": "yMhhJnow4mlL",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "18_Vulnerability Assessment_i.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "ANRonH3GF11W",
+					"notePath": [
+						"ouze5UkNTW8Y",
+						"ANRonH3GF11W"
+					],
+					"title": "Auditing Fundamentals",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Auditing Fundamentals.html",
+					"attachments": [
+						{
+							"attachmentId": "0kvvrIlLIvSR",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "Auditing Fundamentals_imag.png"
+						},
+						{
+							"attachmentId": "RGIc2W87HoWh",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "1_Auditing Fundamentals_imag.png"
+						}
+					],
+					"dirFileName": "Auditing Fundamentals",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "E7hLciuOfMQE",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"ANRonH3GF11W",
+								"E7hLciuOfMQE"
+							],
+							"title": "Intro To Sec Audit",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Intro To Sec Audit.html",
+							"attachments": [
+								{
+									"attachmentId": "3yGHvrxNeW89",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "4GM8gpR3Dh5g",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "4RlIalqbCyVx",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "8SVeeqahA3TO",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "aF7bUJVAOd4b",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "ALxC4G3lA4jr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "aNBwp55jBWgV",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "AWgiKDkKXzdM",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "c78Sp49JspFs",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "Cm6E0jaWJpJP",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "CNtstHIYBIiY",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "fHeICRVdFFIr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "11_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "fNOpBlFl0zQn",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "12_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "gvEvj76P3MSA",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "13_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "HbrK5r4ZGYkj",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "14_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "Hr3mQeQiUx7i",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "15_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "IVqucGjFaaY5",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "16_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "JL2XOvFWgqgC",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "17_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "lhTGZJ45etTi",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "18_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "maflZ7iDO9Wq",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "19_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "Ofx6iK9XU3Pd",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "20_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "OpDqG2wKt6V8",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "21_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "PwZD4hplm6yt",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "22_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "QIRq8E6aBnAV",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "23_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "QsPIKNLvD4M3",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "24_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "R1dc9CHynuvl",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "25_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "S4lvVGBG5JTs",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "26_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "sglw0eqIvwph",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "27_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "SJ44G5ISPGdm",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "28_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "SsG12PE7BPbr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "29_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "VFcNOYVZ1AaB",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "30_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "wsJpNa3QZnWW",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "31_Intro To Sec Audit_image.png"
+								},
+								{
+									"attachmentId": "Y1sW8ky698Y8",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "32_Intro To Sec Audit_image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "jJtABsJpoZj6",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"ANRonH3GF11W",
+								"jJtABsJpoZj6"
+							],
+							"title": "GRC",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "GRC.html",
+							"attachments": [
+								{
+									"attachmentId": "7siLyPjo59lE",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "GRC_image.png"
+								},
+								{
+									"attachmentId": "8i6cWLrij2W2",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_GRC_image.png"
+								},
+								{
+									"attachmentId": "ahmise0DWzE7",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_GRC_image.png"
+								},
+								{
+									"attachmentId": "dNnSrbHO6Bx3",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_GRC_image.png"
+								},
+								{
+									"attachmentId": "fJnAUE8ioXuY",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_GRC_image.png"
+								},
+								{
+									"attachmentId": "iphVLwm6CouD",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_GRC_image.png"
+								},
+								{
+									"attachmentId": "nF8MLdEsyygM",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_GRC_image.png"
+								},
+								{
+									"attachmentId": "Ptu3BcroRh6F",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_GRC_image.png"
+								},
+								{
+									"attachmentId": "scfZwnhkDZDy",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_GRC_image.png"
+								},
+								{
+									"attachmentId": "wQDM8H1kQAk3",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_GRC_image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "VMwuSe4aKZ7b",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"ANRonH3GF11W",
+								"VMwuSe4aKZ7b"
+							],
+							"title": "From Auditing to Penetration Testing",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "From Auditing to Penetration T.html",
+							"attachments": [
+								{
+									"attachmentId": "5D4FfH4O5aso",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "alRo6GT2Pusp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "FHQGxqfOTf9q",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "Gkw6rOtsybZq",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "MV1lwluGDEZR",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "OE6Rvf4bmhvE",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "PHA78HG48v2t",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_From Auditing to Penetrati.png"
+								},
+								{
+									"attachmentId": "we8CPize3sBp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_From Auditing to Penetrati.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "2ESfxYcPCbLa",
+					"notePath": [
+						"ouze5UkNTW8Y",
+						"2ESfxYcPCbLa"
+					],
+					"title": "Web Application Penetration Testing: Introduction to the Web & HTTP Protocol",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"attachments": [],
+					"dirFileName": "Web Application Penetration Testing Introduction to the Web & HTTP Protocol",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "HOIRqoPnNXPw",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"2ESfxYcPCbLa",
+								"HOIRqoPnNXPw"
+							],
+							"title": "Introduction to Web App Security Testing",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Introduction to Web App Securi.html",
+							"attachments": [
+								{
+									"attachmentId": "Cfpnx9oIVHw2",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "CJ3m1Bfk4YLJ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "Cqi8GKoRpE7F",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "cZh2HIL5NZy7",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "PFDOMqlKoQtQ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "PUDE7V1yXT5Z",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "spzNnI1ZNGrU",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "tnjkPs7JazEP",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "uEiehF5Ir0bc",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Introduction to Web App Se.png"
+								},
+								{
+									"attachmentId": "wpyldnvQwWat",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Introduction to Web App Se.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "ljWONH8rpi3p",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"2ESfxYcPCbLa",
+								"ljWONH8rpi3p"
+							],
+							"title": "Web Application Architecture & Components",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Web Application Architecture &.html",
+							"attachments": [
+								{
+									"attachmentId": "5E7k0m3Wj63l",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "5M6DLLmGNDxy",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "7DpuLd6bMmKJ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "7M2wRxTWYtrM",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "9TmUZRjkAvAP",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "BbHROtIV8sO9",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "BERRPBf8e18m",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "dF64KAD9OXAb",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "DLyrQaQVnA44",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "dMt0Zy07A020",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "eLXjc3pcanse",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "FvUQT1yfxcQ2",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "11_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "iBMYyPVS3A61",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "12_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "Jm29awKTjJnr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "13_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "JsRXK4f2QuGp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "14_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "KoTjg4NUAIwS",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "15_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "NOTqNSB4eSzx",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "16_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "NpDYKRz26quC",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "17_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "oFRkFmU8EDTB",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "18_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "pM3oJvT9BJJm",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "19_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "QbL9cAhhcRQu",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "20_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "QMdW3qBYqlcT",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "21_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "RUMqC2jR3XwH",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "22_Web Application Architectu.png"
+								},
+								{
+									"attachmentId": "THvacsCL3wEr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "23_Web Application Architectu.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "B5I3rInWoyqU",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"2ESfxYcPCbLa",
+								"B5I3rInWoyqU"
+							],
+							"title": "HTTP/S Protocol Fundamentals",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "HTTPS Protocol Fundamentals.html",
+							"attachments": [
+								{
+									"attachmentId": "1nRUhiIq4cpJ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "65kUMCd0jRqY",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "8yQjjYMy1aRg",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "9bG2VJ2xIEgo",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "A0w7fO7WT2FT",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "ahO4dDtUkWtS",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "bT7P2cObKSGa",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "DmE6ZcBtZOnp",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "GDI08tJtB3p2",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "HoGmZ95g8eMJ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "jKlIjWdTO3Nr",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "M6un5yJiDwKz",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "11_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "nk9t6l8a7z8W",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "12_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "nOMtwLmRIw3a",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "13_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "PB3ZJnOaO3Eu",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "14_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "rG5XPQU6dJkz",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "15_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "rRHY3A1zsFC3",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "16_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "tugveJhUYooE",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "17_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "w8s0EasBtsC6",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "18_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "Wdfop2RjaQnO",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "19_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "XXriV0AwuByK",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "20_HTTPS Protocol Fundamental.png"
+								},
+								{
+									"attachmentId": "yHu3vFXnoEUN",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "21_HTTPS Protocol Fundamental.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "uyC6Z8sYkAMz",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"2ESfxYcPCbLa",
+								"uyC6Z8sYkAMz"
+							],
+							"title": "Website Crawling & Spidering",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Website Crawling & Spidering.html",
+							"attachments": [
+								{
+									"attachmentId": "ijKU2D1LN42u",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Website Crawling & Spideri.png"
+								},
+								{
+									"attachmentId": "KP1UXpFZlkfK",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Website Crawling & Spideri.png"
+								},
+								{
+									"attachmentId": "Nsu38P3ZHED5",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Website Crawling & Spideri.png"
+								},
+								{
+									"attachmentId": "QH3iSIF3HT1e",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Website Crawling & Spideri.png"
+								},
+								{
+									"attachmentId": "t4lanGTF8Tkw",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Website Crawling & Spideri.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "cRQEn1QkLQHm",
+					"notePath": [
+						"ouze5UkNTW8Y",
+						"cRQEn1QkLQHm"
+					],
+					"title": "Host & Network Penetration Testing: System/Host Based Attacks",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Host & Network Penetration Tes.html",
+					"attachments": [
+						{
+							"attachmentId": "2KozZrZnOvcr",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "Host & Network Penetration.png"
+						},
+						{
+							"attachmentId": "4FiSXfOQj0Vo",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "1_Host & Network Penetration.png"
+						},
+						{
+							"attachmentId": "TGYIpmeMJieE",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "2_Host & Network Penetration.png"
+						}
+					],
+					"dirFileName": "Host & Network Penetration Testing SystemHost Based Attacks",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "kwvGJgOYg1QG",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"cRQEn1QkLQHm",
+								"kwvGJgOYg1QG"
+							],
+							"title": "Windows Vulnerabilities ",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Windows Vulnerabilities.html",
+							"attachments": [
+								{
+									"attachmentId": "39LQiOoyCoCX",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Windows Vulnerabilities_im.png"
+								},
+								{
+									"attachmentId": "mCdDbomuRo4y",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Windows Vulnerabilities_im.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "o8wZmBBf3Yl2",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"cRQEn1QkLQHm",
+								"o8wZmBBf3Yl2"
+							],
+							"title": "Exploiting Windows Vulnerabilities",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Exploiting Windows Vulnerabili.html",
+							"attachments": [
+								{
+									"attachmentId": "a03DlEy84fAL",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "bmZuvpGxj3cb",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "IFIiChpCLVQ0",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "K7rhV16zzR1y",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "NJe7ih43678H",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "Qw7XgMtozyfu",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "ssDdnzXE5FuV",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "T6mt8ctkgmFv",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "UJX9J8TIXgit",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "wiSJ4fTULmoe",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Exploiting Windows Vulnera.png"
+								},
+								{
+									"attachmentId": "ZakJIv0Tw1Mf",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_Exploiting Windows Vulnera.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "upjZwNHqJtCR",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"cRQEn1QkLQHm",
+								"upjZwNHqJtCR"
+							],
+							"title": "Windows Priv Escalation",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Windows Priv Escalation.html",
+							"attachments": [
+								{
+									"attachmentId": "0vOYgGTUOT4I",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "4mS6vacrwBym",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "8kZgykjHCGXl",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "2_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "8z0FEgBOJabT",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "3_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "aI9RvubeTsg1",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "4_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "ETKo4l7T6ViF",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "5_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "foc1zg6zkuyZ",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "6_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "gKiQ4f4Gn0Gz",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "7_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "IGiFK2vbFKoL",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "8_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "L8TNEzX1djct",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "9_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "MyuXiOTCSqvK",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "10_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "RQDIajsEFHpf",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "11_Windows Priv Escalation_im.png"
+								},
+								{
+									"attachmentId": "tIj6fmuS5BoN",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "12_Windows Priv Escalation_im.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "yV8y6iMoUWMH",
+							"notePath": [
+								"ouze5UkNTW8Y",
+								"cRQEn1QkLQHm",
+								"yV8y6iMoUWMH"
+							],
+							"title": "Windows Creds Dumping",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Windows Creds Dumping.html",
+							"attachments": [
+								{
+									"attachmentId": "ewq7qggfNafG",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "Windows Creds Dumping_imag.png"
+								},
+								{
+									"attachmentId": "Fz3tT2IRvkQV",
+									"title": "image.png",
+									"role": "image",
+									"mime": "image/jpg",
+									"position": 10,
+									"dataFileName": "1_Windows Creds Dumping_imag.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "3cQc22mf3PlB",
+					"notePath": [
+						"ouze5UkNTW8Y",
+						"3cQc22mf3PlB"
+					],
+					"title": "Misc.",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Misc.html",
+					"attachments": [
+						{
+							"attachmentId": "11WvYVCfaMjC",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "Misc_image.png"
+						},
+						{
+							"attachmentId": "1v2DfCxPOLek",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "1_Misc_image.png"
+						},
+						{
+							"attachmentId": "4uuqFDWVvc11",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "2_Misc_image.png"
+						},
+						{
+							"attachmentId": "7xvgHQhfOfJD",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "3_Misc_image.png"
+						},
+						{
+							"attachmentId": "AqVb0YeyPHaV",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "4_Misc_image.png"
+						},
+						{
+							"attachmentId": "D9sjtgUsbC1r",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "5_Misc_image.png"
+						},
+						{
+							"attachmentId": "EgUzOV1VOGCp",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "6_Misc_image.png"
+						},
+						{
+							"attachmentId": "i4eZmJD2nboT",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "7_Misc_image.png"
+						},
+						{
+							"attachmentId": "ilcGkrb2SqhL",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "8_Misc_image.png"
+						},
+						{
+							"attachmentId": "kZUGBp16dhxY",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "9_Misc_image.png"
+						},
+						{
+							"attachmentId": "n0HGSAz3pR2Q",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "10_Misc_image.png"
+						},
+						{
+							"attachmentId": "pcOl5xj67l7J",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "11_Misc_image.png"
+						},
+						{
+							"attachmentId": "Q8PlP6HFnSBS",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "12_Misc_image.png"
+						},
+						{
+							"attachmentId": "t3qL4uGWBacg",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "13_Misc_image.png"
+						},
+						{
+							"attachmentId": "tNPAfZg3Fme3",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "14_Misc_image.png"
+						},
+						{
+							"attachmentId": "uebWLemAU6av",
+							"title": "image.png",
+							"role": "image",
+							"mime": "image/jpg",
+							"position": 10,
+							"dataFileName": "15_Misc_image.png"
+						}
+					]
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

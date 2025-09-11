@@ -1,0 +1,125 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Information Gathering</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Information Gathering</h1>
+
+      <div class="ck-content">
+        <h2>Passive Recon</h2>
+        <hr>
+        <p>Footprinting is almost same as recon but we identify more important info
+          about the target that we might use to exploit.</p>
+        <ul>
+          <li data-list-item-id="ef82d9cbd630ecfcd0d69483e6dfe1f39">when passive recon of a website :</li>
+        </ul>
+        <figure class="image">
+          <img style="aspect-ratio:654/380;" src="Information Gathering_imag.png"
+          width="654" height="380">
+        </figure>
+        <ul>
+          <li data-list-item-id="e11ed921e346b7efeed4543bba4f2ca1d">The host command can be used for a reverse DNS lookup of a URL</li>
+          <li
+          data-list-item-id="e38c0b58159b3a660a9edcbebb7d2d7ba">Every website should contain a robots.txt because when search engines
+            use crawlers, it is their way of telling that we do not want this information
+            to be crawled and available publicly.</li>
+            <li data-list-item-id="ef015d44c3aaf7da68480918c6b96136d">sitemap.xml provides search engine an organizing way of indexing</li>
+            <li
+            data-list-item-id="ecae1d2e970310d313c4df7c99a829f0d">BuiltWith extension in firefox tell the information of the website</li>
+              <li
+              data-list-item-id="e5784f9d46488824b1ebe9d30d3f1578b"><strong>Netcraft</strong> is a cybersecurity and internet services company
+                known primarily for its tools and data related to:
+                <ul>
+                  <li data-list-item-id="e83857bdb50e1a8228c993a6e1c506310">
+                    <h3>1. <strong>Website Profiling &amp; Hosting Information</strong></h3>
+                  </li>
+                  <li data-list-item-id="e209359a2f7c5ac0f52cd8487db75c316">Netcraft provides detailed information about websites, including:</li>
+                  <li
+                  data-list-item-id="e5b45c4a02a7b4fa18c80f3033d8a66ce">Hosting provider</li>
+                    <li data-list-item-id="e910f09492c3342564ee8d5bf24ae6a4a">Operating system</li>
+                    <li data-list-item-id="e1540305aefc0a95c828053b063cc3f62">Web server software (like Apache, Nginx, IIS)</li>
+                    <li data-list-item-id="e83d91f1b44b95c1c052fc35a3d3f8513">SSL certificate details</li>
+                    <li data-list-item-id="e936f37d6622413de3ec9332c173db49a">Site technologies (PHP, WordPress, etc.)</li>
+                    <li data-list-item-id="ee56385a01956ecec232a9c2f8540a084">
+                      <h3>2. <strong>Cybersecurity Services</strong></h3>
+                    </li>
+                    <li data-list-item-id="ec686a8bb3131b2bf025ba4f3bfbf37d5"><strong>Phishing Detection</strong>: Netcraft maintains one of the largest
+                      phishing site databases.</li>
+                    <li data-list-item-id="e54c62ba744adbcd2587c261e89b8a128"><strong>Anti-Phishing Toolbar/Extension</strong>: Used to alert users
+                      if they visit potentially malicious or fraudulent websites.</li>
+                    <li data-list-item-id="e7c2b46fa5bb68683638b0a4fb2791700"><strong>Takedown Services</strong>: For companies and brands to quickly
+                      remove phishing or scam sites impersonating them.</li>
+                </ul>
+                </li>
+                <li data-list-item-id="eb38c86ec4dbad7a26f0f12d41c9e092f">dnsrecon is a DNS enumeration and scanning tool</li>
+                <li data-list-item-id="ecc278719f27b6332d9d07b8a1719834f">Cloudfare isnt able to hide mailserver ip really well (2022_</li>
+                <li data-list-item-id="e3e6058d05de8e48696b56ac8d09de9f6">
+                  <p>use site <u>dnsdumpster.com</u> (recommended)</p>
+                  <hr>
+                  <h3>WebApp Firewall</h3>
+                </li>
+                <li data-list-item-id="e80eb303309373f134e8a970dc0b894da">wafw00f is webapp firewall fingerprinting tool on github
+                  <ul>
+                    <li data-list-item-id="e34f3a11e21659bf42193333e08e87ed9">comes pre packaged in kali</li>
+                  </ul>
+                </li>
+        </ul>
+        <hr>
+        <h3>Subdomain Enumeration</h3>
+        <ul>
+          <li data-list-item-id="ed0c78bda242e6b8f5c53eded45bb40ae">sublist3r python tool desinged to enumerate subdomains of a website using
+            osint &nbsp;
+            <ul>
+              <li data-list-item-id="e275edf30540890886fe971e4295b98dc">is a repo</li>
+              <li data-list-item-id="e36a0a66b113d63fbf152a71270baeb8d">can be directly installed using apt in linux</li>
+              <li data-list-item-id="ed490a262dae62155af1664ffa1b72e31">sudo apt-get install sublist3r</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e91f81453e7e9aec9eb99cc93e66b605a">Skipping google dorking because parh liya hai&nbsp;</li>
+        </ul>
+        <hr>
+        <h3>theHarvester</h3>
+        <ul>
+          <li data-list-item-id="ec20e2d04b896875449cd80a6a53fd513">get email domains of the website and names harvester</li>
+          <li data-list-item-id="e1a3acf3c8acfb6c4e59c76db0232213a">is a repo</li>
+        </ul>
+        <p>check have &nbsp;i been pwned as pentester.</p>
+        <hr>
+        <hr>
+        <h2>Active Recon</h2>
+        <p>Directly interacting with the system to be pentested</p>
+        <h3>DNS ZONE TRANSFER</h3>
+        <ul>
+          <li data-list-item-id="edf1bc5a05e14f6b3d740bb6bf9c34eca">&nbsp;You can config your DNS server for requests.</li>
+          <li data-list-item-id="ee4e7cb6db6f74da3c933cc765c1570e3">we have records on a dns server</li>
+          <li data-list-item-id="e6fbd3dff3ffd1600a65221f122568bfb">A record for host or domain to ipv4 add</li>
+          <li data-list-item-id="ee454c5a560330e70b6bccfa9aa2cdb30">AAAA to an ipv6 add</li>
+          <li data-list-item-id="e7ca5588fc9e8c38dca73cbf27bc1ebd4">DNS interrogation is the process of enumerating dns record of specific
+            domain more sepcifically additional records.</li>
+          <li data-list-item-id="e77808c129c2edfa6c17953bb430a77c3">a zone file is a file that contains records pertinent to a particular
+            domain.</li>
+          <li data-list-item-id="e2eedbddeed49b812883b0829a9f817e6">zone transfer is the process of copying dns record from one server to
+            another.</li>
+          <li data-list-item-id="ed8611481621326d72a0fe139c06fbcec">Tools:
+            <ul>
+              <li data-list-item-id="ee221b2056ee4462e45947f620b39afdd">dnsenum</li>
+              <li data-list-item-id="e7ac330962041e9c23d86e76ea13163b5">dig</li>
+              <li data-list-item-id="e37bc44622a0d2f6063f1d006fb520fb2">fierce</li>
+              <li data-list-item-id="ea089d0746934fda00943b65264d5f627">dnsdumpster</li>
+            </ul>
+          </li>
+        </ul>
+        <h2>Host Discovery thru NMAP</h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

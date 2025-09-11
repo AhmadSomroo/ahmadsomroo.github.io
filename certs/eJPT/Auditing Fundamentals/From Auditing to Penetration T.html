@@ -1,0 +1,141 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>From Auditing to Penetration Testing</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>From Auditing to Penetration Testing</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li data-list-item-id="e932a18154f5919d4f9f407a557f8ec28">In this section we learn how to security audit helps with pentest and
+            how sec audit affects the scope and objectives of the pentest</li>
+        </ul>
+        <hr>
+        <h2>PHASE 1: An example of how to make policies and use them to do pentest</h2>
+        <ul>
+          <li data-list-item-id="e5a2c1697f4a75854157136cf9be17b18">
+            <figure class="image">
+              <img style="aspect-ratio:955/528;" src="4_From Auditing to Penetrati.png"
+              width="955" height="528">
+            </figure>
+          </li>
+          <li data-list-item-id="e6988bddbebaa9c2bd7d762c97556db30">
+            <figure class="image">
+              <img style="aspect-ratio:939/439;" src="1_From Auditing to Penetrati.png"
+              width="939" height="439">
+            </figure>
+          </li>
+          <li data-list-item-id="eadfdecee8c5afb260a9214b0d2a28c21">
+            <figure class="image">
+              <img style="aspect-ratio:943/522;" src="7_From Auditing to Penetrati.png"
+              width="943" height="522">
+            </figure>
+          </li>
+          <li data-list-item-id="e3124031e01320e6e7388771febfe3179">
+            <figure class="image">
+              <img style="aspect-ratio:955/346;" src="5_From Auditing to Penetrati.png"
+              width="955" height="346">
+            </figure>
+          </li>
+          <li data-list-item-id="e2e46b7e9800f32e15b5842bc5ed7c2bc">
+            <figure class="image">
+              <img style="aspect-ratio:953/512;" src="2_From Auditing to Penetrati.png"
+              width="953" height="512">
+            </figure>
+            <ul>
+              <li data-list-item-id="eb7fe6cabb19292bafe25226141553aca">these are simple examples but aligned with the chosen framework</li>
+            </ul>
+          </li>
+        </ul>
+        <p><span style="color:hsl(0,0%,100%);"><strong>NOTE:</strong> We can use syslog or journald logging for centralized logging</span>
+        </p>
+        <p><span style="color:hsl(0,0%,100%);"><strong>NOTE 2</strong>: Ansible and puppet etc are used for linux configurations</span>
+        </p>
+        <p><span style="color:hsl(0,0%,100%);"><strong>NOTE 3</strong>: Tools like Lynis can be used for security audit</span>
+        </p>
+        <ul>
+          <li data-list-item-id="e71a55806aa20b071cafcbf00dd780160">Learn linux auditing with lynis</li>
+          <li data-list-item-id="ec69b2e9ac2e6c54dcaf5bc2da363eba9">
+            <p>we can tell lynis which control options we need to check for while auditing</p>
+            <ul>
+              <li data-list-item-id="eca8746b85b70f19b791823e8fe4935b7">
+                <figure class="image">
+                  <img style="aspect-ratio:921/121;" src="3_From Auditing to Penetrati.png"
+                  width="921" height="121">
+                </figure>
+              </li>
+              <li data-list-item-id="e293e3a521f9ad99ef0570a08521dbe82">check without double quotes as well</li>
+            </ul>
+            <p>&nbsp;</p>
+            <h2>ClamAV</h2>
+          </li>
+          <li data-list-item-id="e4d0b29c7061b86c398bb5a76d9388e35">ClamAV 🐚 is an <strong>open-source antivirus engine</strong> that’s widely
+            used in Linux and Unix-like systems (though it also works on Windows).
+            <ul>
+              <li data-list-item-id="e5fa523d8022fb2e288bc5d33f1afb598"><strong>Detects and removes malware</strong> → viruses, trojans, worms,
+                backdoors, etc.</li>
+              <li data-list-item-id="e8cb2aa04106db897a02b71607d0eb647"><strong>Scans files and directories</strong> → on-demand or scheduled.</li>
+              <li
+              data-list-item-id="e0107dbe803c1d5e251b4141e835d0686"><strong>Scans emails</strong> → often integrated with mail servers (e.g.,
+                Postfix, Exim) to check attachments.</li>
+          <li data-list-item-id="ed5666114b761a8dab93047a20696d4cc"><strong>Detects signatures</strong> → uses a frequently updated database
+            of virus signatures.</li>
+          <li data-list-item-id="ec2b429dc86353c2e8ea05c66b5dc5a52"><strong>Heuristic analysis</strong> → can catch suspicious files even without
+            exact signatures.</li>
+          </ul>
+          </li>
+        </ul>
+        <h3>RootKit Hunter</h3>
+        <p><strong>rkhunter</strong> (Rootkit Hunter) is a <strong>Linux security tool</strong> used
+          to detect signs of rootkits, backdoors, and local exploits.</p>
+        <ul>
+          <li data-list-item-id="e60a55507f9227b6eb770c2b1d8cbd99a"><strong>Scans for rootkits</strong>
+            <br>Looks for known rootkit signatures (files, directories, strings).</li>
+          <li
+          data-list-item-id="ef6a0e01830cb804ddf7b0d76bfa95ae6"><strong>Checks system binaries</strong>
+            <br>Compares important binaries (<code>ls</code>, <code>ps</code>, <code>netstat</code>,
+            etc.) against known-good hashes to detect tampering.</li>
+            <li data-list-item-id="e38afafe2d67c58f6aaa5db9e3275049f"><strong>Detects hidden files</strong>
+              <br>Rootkits often hide files/processes — rkhunter looks for anomalies.</li>
+            <li
+            data-list-item-id="eefe2f80d8442f9e84b21cb5ebabebdab"><strong>Checks permissions and configs</strong>
+              <br>Flags suspicious file permissions (e.g., writable by everyone, SUID root).</li>
+              <li
+              data-list-item-id="e4df92ed0d51ffed23016e72aae4a333d"><strong>Warns about vulnerabilities</strong>
+                <br>Looks for outdated software versions that could be exploited.</li>
+        </ul>
+        <hr>
+        <h3>Pentest Phase</h3>
+        <ul>
+          <li data-list-item-id="e7b5aa33c807ad18bd9a915d7ff1507a2">
+            <figure class="image">
+              <img style="aspect-ratio:935/458;" src="From Auditing to Penetrati.png"
+              width="935" height="458">
+            </figure>
+          </li>
+          <li data-list-item-id="e382017ad754fdab0f06f78e20214ba08">
+            <figure class="image">
+              <img style="aspect-ratio:945/374;" src="6_From Auditing to Penetrati.png"
+              width="945" height="374">
+            </figure>
+          </li>
+        </ul>
+        <p><span style="color:hsl(0,0%,100%);"><strong>NOTE 4:</strong> fail2ban is firewall that allows us to secure certain services in linux</span>
+        </p>
+        <ul>
+          <li class="ck-list-marker-color" style="--ck-content-list-marker-color:hsl(0,0%,100%);"
+          data-list-item-id="e23e9c3b367f046bd08b375377cebad38"><span style="color:hsl(0,0%,100%);"><strong>AUTOBLUE </strong>tool can be used to exploit eternal blue vulnerability</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

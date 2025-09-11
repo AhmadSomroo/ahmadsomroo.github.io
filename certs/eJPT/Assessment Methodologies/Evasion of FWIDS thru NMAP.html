@@ -1,0 +1,71 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Evasion of FW/IDS thru NMAP</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Evasion of FW/IDS thru NMAP</h1>
+
+      <div class="ck-content">
+        <ul>
+          <li>use <strong>-sA&nbsp;</strong> to see if ports are filetered&nbsp;</li>
+          <li>there is section for firewall and ids evasion in nmap manual</li>
+          <li>there is ttl option in the nmap</li>
+          <li>you can spoof the ip in nmap to send from a different ip(gateway ip).
+            can use multiple decoy ips&nbsp;</li>
+          <li>we can change the source port as well</li>
+        </ul>
+        <p>&nbsp;</p>
+        <hr>
+        <h3>Optimization of NMAP scans</h3>
+        <ul>
+          <li>there are the nmap timing systems which can used to control the number
+            of packets sent in a certain time, use manpage to learn the things about
+            TIME AND PERFORMANCE.</li>
+          <li>read manpage of nmap</li>
+          <li>you can use --host-timeout flag to leave a host after certain time and
+            move to the next host</li>
+          <li>You can change the time shown in version to UTC or other in preferences.</li>
+        </ul>
+        <hr>
+        <h3>Optimizing Formats</h3>
+        <ul>
+          <li>You can save your nmap results in format you want ( check manpage).</li>
+          <li>you can use XML format directly into msfconsole</li>
+          <li>you need to start postgresql so you can import nmap scan into msfconsole</li>
+          <li>db_import (path of the xml) to import the xml</li>
+          <li>you can also run nmap scan from with in msfconsole and will be saved in
+            msfconsole and automaticaly updates the information in the hosts and services
+            commands</li>
+          <li>msfconsole can have more than one workspaces, use command workspace to
+            see the workspaces created and to create a workspace use workspace (name
+            here) &nbsp;and it will store the workspace for next time.</li>
+          <li>Grepable format is used for automation.</li>
+          <li>You can use mysql utility to connect to a remote database</li>
+          <li>mysql -h hosthere -u username -p (to promted for password)</li>
+        </ul>
+        <hr>
+        <h3>Test learnings</h3>
+        <ul>
+          <li>You should utilize scripts in nmap&nbsp;</li>
+          <li>
+            <p>--script-args can be used to give arguments to your script if it accepts</p>
+            <figure
+            class="image">
+              <img style="aspect-ratio:874/487;" src="Evasion of FWIDS thru NMAP.png"
+              width="874" height="487">
+              </figure>
+          </li>
+          <li>&nbsp;</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

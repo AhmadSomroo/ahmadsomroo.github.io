@@ -15,6 +15,30 @@ header nav a {
   margin: 0 1rem; color: #ffcc00; text-decoration: none; font-weight: bold;
 }
 header nav a:hover { color: #fff; }
+/* Contact Info in Header */
+/* Contact Info in Header */
+.contact-info {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;   /* stack links vertically */
+  align-items: flex-start;  /* align text to the left */
+  gap: 15px;                 /* space between lines */
+  font-size: 0.9rem;
+  color: #ffcc00;
+}
+
+.contact-info a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: #fff;
+}
+
 
 /* Sections */
 section { padding: 3rem 2rem; max-width: 900px; margin: auto; }
@@ -27,15 +51,21 @@ h2 { text-align: center; margin-bottom: 1.5rem; color: #1e2a47; }
   gap: 1.5rem;
 }
 .card {
+  display: block;                 /* make the <a> behave like a block */
   background: #fff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;          /* remove link underline */
+  color: inherit;                 /* use normal text color */
 }
-.card:hover { transform: translateY(-5px); }
-.card h3 { margin-bottom: 0.5rem; }
-.card a { color: #1e2a47; text-decoration: none; font-weight: bold; }
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
 
 /* Footer */
 footer {

@@ -1,0 +1,171 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Windows Priv Escalation</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Windows Priv Escalation</h1>
+
+      <div class="ck-content">
+        <h3>Windows Kernal Exploits</h3>
+        <ul>
+          <li data-list-item-id="ef3acadfaac66f0ea34c37362394a8d3d">if doing pentesting there should be atleast one way to priv escalate</li>
+          <li
+          data-list-item-id="e5874f6e31819ea416e5b536dd97a99e2">
+            <figure class="image">
+              <img style="aspect-ratio:944/531;" src="4_Windows Priv Escalation_im.png"
+              width="944" height="531">
+            </figure>
+            <ul>
+              <li data-list-item-id="eef1b5b2bd9cf1615695bb65dfde89695">suggester is a module in the msfconsole
+                <ul>
+                  <li data-list-item-id="ede71dc015a74ae0017683893f8c0d398">this runs all the modules that can be used to privesc</li>
+                  <li data-list-item-id="e25780b12c7dc140e430154e006ecfd05">we can set session on which the exploit should be used</li>
+                  <li data-list-item-id="ee9064ca9129a328b7b0a669d8ab42b7d">we can also send session to bg</li>
+                  <li data-list-item-id="e3ede40f9ec4f80398b656eae1aecb712">we can type <strong>shell&nbsp;</strong> in the elevated meterpreter</li>
+                  <li
+                  data-list-item-id="e25dbadb15675b517965477783c3c5775">doing <strong>systeminfo </strong>in the shell gives you information about
+                    the system but also key information about the hotfixes</li>
+              <li data-list-item-id="e2269afcda9153e8d2df599209a462a01">copy the output from the systeminfo so you can use it in the python file
+                for exploitation&nbsp;</li>
+              <li data-list-item-id="e0f392ed61daccebf1f38a39d4e7f3b57">
+                <figure class="image">
+                  <img style="aspect-ratio:776/323;" src="Windows Priv Escalation_im.png"
+                  width="776" height="323">
+                </figure>
+                <ul>
+                  <li data-list-item-id="e7c93f7730a08aa828a494f2403bfd81f">run the highlighted command to update the python and get the highlighted
+                    database</li>
+                </ul>
+              </li>
+              <li data-list-item-id="e8a3599c94cd89d71087060fe0d72f2ed">
+                <figure class="image">
+                  <img style="aspect-ratio:1289/235;" src="1_Windows Priv Escalation_im.png"
+                  width="1289" height="235">
+                </figure>
+              </li>
+              </ul>
+              </li>
+            </ul>
+            </li>
+        </ul>
+        <hr>
+        <h3>Bypassing UAC with UACMe</h3>
+        <ul>
+          <li data-list-item-id="e9587c6be743714a4a05a84369958f1c2">UAC is user account control</li>
+          <li data-list-item-id="e2422f338d85efbe4f5805ecf86827eb8">
+            <figure class="image">
+              <img style="aspect-ratio:1397/716;" src="5_Windows Priv Escalation_im.png"
+              width="1397" height="716">
+            </figure>
+            <ul>
+              <li data-list-item-id="e6b09920c5e5db80574b42f7ddedf917f">if you are part of the local admin group you will be prompted with the
+                message in the above ss to ask if you want to do this process with admin
+                rights</li>
+              <li data-list-item-id="eca7b6ff7d3d4618ea2e3174a2065d69f">if you arent part of the admin group it will prompt you with login creds
+                for the admin</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e538d61ca64a7db3ae1acf18eb175cafa">UAC
+            <img class="image_resized" style="aspect-ratio:651/320;width:86.56%;"
+            src="6_Windows Priv Escalation_im.png" width="651" height="320">
+            <ul>
+              <li data-list-item-id="ed259fd5322bcf1f92c32bf02b279186c">the tools and techniques used will depend on the version of the windows
+                used and also the level of UAC&nbsp;</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e78e5568a058ac342973775a9925709f0">
+            <figure class="image image_resized" style="width:63.16%;">
+              <img style="aspect-ratio:650/329;" src="8_Windows Priv Escalation_im.png"
+              width="650" height="329">
+            </figure>
+          </li>
+          <li data-list-item-id="ecfe7abf9dff65aacf7526231f1438d11">pkgmngr.exe is used on windows to install packages on windows system
+            <ul>
+              <li data-list-item-id="e2b8d73b8b88dbdc1fcefce4e36dbe224">make a payload with msfvenom</li>
+              <li data-list-item-id="e2bf701309a0c122e22f7849c09dd549f">upload akgai exe(used to bypass UAC) to the target</li>
+              <li data-list-item-id="e994e3c06807175843d7c6467326f3e92">run the akgai with the required technique to bypass the UAC and then run
+                the payload of msfvenom on the target with admin priv which will not trigger
+                UAC</li>
+              <li data-list-item-id="e7fa237b1dc05611364f95919e40e6974">
+                <figure class="image image_resized" style="width:44.81%;">
+                  <img style="aspect-ratio:365/35;" src="9_Windows Priv Escalation_im.png"
+                  width="365" height="35">
+                </figure>
+                <ul>
+                  <li data-list-item-id="e91c3839a0685a1e8f567f568bdd375a8">this will run the backdoor with admin privledges which we were unable
+                    to do because of UAC giving us a shell session with more elevated privledges</li>
+                </ul>
+              </li>
+              <li data-list-item-id="ee15d9a32c00cd27180a670b3bb6fd153">learn how UACMe works from its repo</li>
+            </ul>
+          </li>
+          <li data-list-item-id="ea41320589c281165039c2325e5cc708b"><strong>lsa_dump_sam&nbsp;</strong> can be used to dump the NTLM hashes
+            of all the users</li>
+        </ul>
+        <hr>
+        <h3>Access Token Impersonation</h3>
+        <ul>
+          <li data-list-item-id="e0a8f31f72d7ef8eab514126d381ea249">
+            <figure class="image">
+              <img style="aspect-ratio:1396/683;" src="2_Windows Priv Escalation_im.png"
+              width="1396" height="683">
+            </figure>
+          </li>
+          <li data-list-item-id="e01b2f81eafd60e6bbce1a90c0edda697">
+            <figure class="image">
+              <img style="aspect-ratio:1385/701;" src="11_Windows Priv Escalation_im.png"
+              width="1385" height="701">
+            </figure>
+          </li>
+          <li data-list-item-id="e99f7cd3294fc8035749a77c77a485302">
+            <figure class="image">
+              <img style="aspect-ratio:1402/645;" src="12_Windows Priv Escalation_im.png"
+              width="1402" height="645">
+            </figure>
+          </li>
+          <li data-list-item-id="ef18485a9ddc095d7694c0fc63a36120d">
+            <figure class="image">
+              <img style="aspect-ratio:1400/551;" src="7_Windows Priv Escalation_im.png"
+              width="1400" height="551">
+            </figure>
+            <ul>
+              <li data-list-item-id="e59d60b84ff384a2b1d596f09d031870f">whole process of the impersonation involves two techniques
+                <ul>
+                  <li data-list-item-id="e99a542668fafc016e059004e3065cccd">use the already generated access tokens</li>
+                  <li data-list-item-id="ea17a0f27ebc89d6573b91b458d118799">or generate an access token with admin priv yourself and then impersonate
+                    it &nbsp;(potato Attack)</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li data-list-item-id="e5bc7476c316ffea0d36504c456618c58">
+            <figure class="image">
+              <img style="aspect-ratio:897/473;" src="3_Windows Priv Escalation_im.png"
+              width="897" height="473">
+            </figure>
+            <ul>
+              <li data-list-item-id="e3e2cafae37e673b2a88c074bb3607c14">we load the incognito module&nbsp;</li>
+              <li data-list-item-id="e0a3304479fb0a6da3964f90266430d32">
+                <p><strong>list_tokens -u </strong>to list the user account tokens “-u” specifies
+                  the user account tokens</p>
+                <figure class="image">
+                  <img style="aspect-ratio:1913/852;" src="10_Windows Priv Escalation_im.png"
+                  width="1913" height="852">
+                </figure>
+              </li>
+              <li data-list-item-id="eeb79e95f5db596b0a7bc810037d5c5d2">&nbsp;</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

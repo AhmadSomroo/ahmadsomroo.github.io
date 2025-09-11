@@ -1,0 +1,254 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>HTTP/S Protocol Fundamentals</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>HTTP/S Protocol Fundamentals</h1>
+
+      <div class="ck-content">
+        <h3>HTTP Requests</h3>
+        <ul>
+          <li data-list-item-id="e203d3e5a32951bdbe5a213626bccc057">
+            <figure class="image">
+              <img style="aspect-ratio:949/537;" src="1_HTTPS Protocol Fundamental.png"
+              width="949" height="537">
+            </figure>
+          </li>
+          <li data-list-item-id="eef02c89ee3f0703674354ae72e6aa144">
+            <figure class="image">
+              <img style="aspect-ratio:941/529;" src="2_HTTPS Protocol Fundamental.png"
+              width="941" height="529">
+            </figure>
+            <ul>
+              <li data-list-item-id="e859ee5e94a540ead8457fc139918298f">user agent header is included for compatibility reasons</li>
+              <li data-list-item-id="e5c6d010f432df363406e9bc6e42eaa6a">another reason is user accessibility example if you open a website on
+                phone so the webserver sends the responds with according files</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e345561c83c8dcbf9ffe5c865b95369d5">domain name is the value of the host header</li>
+          <li data-list-item-id="eaef1e45f050476759f8e69b87b843dc0">Auth header isnt used in most of the header
+            <ul>
+              <li data-list-item-id="eaafcdbfac641b45ae9345ef74d83ef15">is used in when creds are used</li>
+              <li data-list-item-id="eec6633f968d8cba9106d43bc5ff5762b">creds are used as the value of this header</li>
+            </ul>
+          </li>
+          <li data-list-item-id="eaf128d611a0ef8bfe1443458b9477bd9">cookies are sent as a response from the server
+            <ul>
+              <li data-list-item-id="e7910e98997a38948753fd184099e59eb">first time visiting; you wont have a cookie you will be granted</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e435fc0bb9e5f66e7c06e6630f346b2d0">
+            <figure class="image">
+              <img style="aspect-ratio:946/314;" src="20_HTTPS Protocol Fundamental.png"
+              width="946" height="314">
+            </figure>
+            <ul>
+              <li data-list-item-id="ef307689aa76e54361cf4ebc6edce97d3">OPTIONAL</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e7fb70d121a427e833f4cc843f471cdf7">
+            <figure class="image">
+              <img style="aspect-ratio:950/530;" src="12_HTTPS Protocol Fundamental.png"
+              width="950" height="530">
+            </figure>
+          </li>
+          <li data-list-item-id="ee08a862613953af1ce178274c4005b0e">HTTP 1.1 connection is kept alive because of TCP</li>
+          <li data-list-item-id="e676a0089a448aa09267768bedf5b13b0">
+            <figure class="image">
+              <img style="aspect-ratio:946/532;" src="14_HTTPS Protocol Fundamental.png"
+              width="946" height="532">
+            </figure>
+          </li>
+          <li data-list-item-id="e647bc06d12579b0588c131106289bb01">If you are trying to upload a file the browser can use POST or PUT method/verb</li>
+          <li
+          data-list-item-id="e48e4350192fdd8b353a2ac67f4924d22">
+            <figure class="image">
+              <img style="aspect-ratio:950/532;" src="5_HTTPS Protocol Fundamental.png"
+              width="950" height="532">
+            </figure>
+            </li>
+            <li data-list-item-id="e312310de9ef0aa9079082c0ac2c580f1">head method is used to get the response headers of the webpage without
+              the body
+              <ul>
+                <li data-list-item-id="e45431e54dc974679671311990428e58a">used to check resource existence or modification dates</li>
+              </ul>
+            </li>
+        </ul>
+        <hr>
+        <h3>HTTP Responses</h3>
+        <ul>
+          <li data-list-item-id="e17f8cc47de08b9bbbe003d2c5043c545">
+            <figure class="image">
+              <img style="aspect-ratio:950/538;" src="13_HTTPS Protocol Fundamental.png"
+              width="950" height="538">
+            </figure>
+            <ul>
+              <li data-list-item-id="ec9baca89b8aab0c3a254ee1b60ae6789">cache control is used by web server to tell the browser that you should
+                cache the user interface because most part of the interface arent going
+                to change&nbsp;</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e09dac9db4c7c0f4ae20bac8c9dbf3ef1">
+            <figure class="image">
+              <img style="aspect-ratio:946/292;" src="3_HTTPS Protocol Fundamental.png"
+              width="946" height="292">
+            </figure>
+            <ul>
+              <li data-list-item-id="ea510475736515ab715832a116288b89a">OPTIONAL but mostly present</li>
+            </ul>
+          </li>
+          <li data-list-item-id="eda7abed3ea35996251c68a93fe8d6017">
+            <figure class="image">
+              <img style="aspect-ratio:948/531;" src="21_HTTPS Protocol Fundamental.png"
+              width="948" height="531">
+            </figure>
+            <ul>
+              <li data-list-item-id="e0f9702ed6cfd94ef9f936229df8c9ca5">401 error says web server authentication is required not web application
+                meaning you need to login at webserver directly rather than on login page
+                of the web app</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e1f82c08c143d029ac9c23ada5afee5c3">
+            <figure class="image">
+              <img style="aspect-ratio:960/529;" src="8_HTTPS Protocol Fundamental.png"
+              width="960" height="529">
+            </figure>
+            <ul>
+              <li data-list-item-id="e22d6bd234b4c0f781b5ccdf55dd64f07">There are many uses of DATE header such as time based SQL injections and
+                other applications use GPT to research&nbsp;</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e5b385126fe88f4ad283cf4f304d099b4">
+            <figure class="image">
+              <img style="aspect-ratio:964/534;" src="16_HTTPS Protocol Fundamental.png"
+              width="964" height="534">
+            </figure>
+            <ul>
+              <li data-list-item-id="e5657a227bf7d547b7174512176313223">one of the things cache control does is the time that browser can keep
+                the resources of the web app cached and under what conditions it should
+                renew the resources</li>
+              <li data-list-item-id="e9ace8bacfe6b7311acce5cfc32bcd271">there are more uses to cache control header</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e22ebcabc3e88dcc3c4e476cd0e3e154c">
+            <figure class="image">
+              <img style="aspect-ratio:1402/791;" src="11_HTTPS Protocol Fundamental.png"
+              width="1402" height="791">
+            </figure>
+            <figure class="image">
+              <img style="aspect-ratio:950/538;" src="7_HTTPS Protocol Fundamental.png"
+              width="950" height="538">
+            </figure>
+            <ul>
+              <li data-list-item-id="e13a9c43d6a369bd1ff244bd1253edd59">the Server header is mostly disabled on the server side because it is
+                of no use to the client or the header</li>
+              <li data-list-item-id="e0354d2ad613620e208666022deac8cbb">it is basically a vulnerability because the server is basically telling
+                the architecture of the server which can be used by the attackers</li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <h3>HTTP Basics Lab</h3>
+        <ul>
+          <li data-list-item-id="e48d6c052f607a1b4d2a046713a5d0caa">we can unzip the file from HTTP packets if they are compresses with gzip
+            by exporting the packet or the compressed file</li>
+          <li data-list-item-id="ecce4cdb5bc4a72e1b659032d4b70d59b">
+            <figure class="image">
+              <img style="aspect-ratio:1287/644;" src="15_HTTPS Protocol Fundamental.png"
+              width="1287" height="644">
+            </figure>
+            <ul>
+              <li data-list-item-id="ed635bfa99e2311527b448305ac43f9c2">this tell what the backend of the server looks like and might also tell
+                the OS of the server</li>
+            </ul>
+          </li>
+          <li data-list-item-id="ec28c7838178335eb8d1ee1e6549a0efb">learn <strong>curl </strong>for analyzing the web responses and effectively
+            change the request methods</li>
+          <li data-list-item-id="ee6cc1cf2febfdc4328962eca5edabb40">
+            <figure class="image">
+              <img style="aspect-ratio:1284/597;" src="4_HTTPS Protocol Fundamental.png"
+              width="1284" height="597">
+            </figure>
+            <ul>
+              <li data-list-item-id="e325f7c07c9b167cad11ecb6d3bfd1d77">The referer header tells where the original request was originated from
+                like you click on login page and than enter creds referer is the way to
+                tell the server that these creds are coming from this page</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e32383d1c300b7d7239d3e0d203f8e2b5">
+            <figure class="image">
+              <img style="aspect-ratio:767/466;" src="9_HTTPS Protocol Fundamental.png"
+              width="767" height="466">
+            </figure>
+            <ul>
+              <li data-list-item-id="ef148cddf0d794debca385705cdac5e4b">this finds files/directories that are hidden</li>
+              <li data-list-item-id="ef8f14aed8621d568925a251e8798502d">we dont need to specify the --url flag</li>
+            </ul>
+          </li>
+          <li data-list-item-id="ed88dcfe0a552a8e9bd9a2f2f36a36ba5">we can check if a certain path in the webserver supports different methods
+            <ul>
+              <li data-list-item-id="e3e66e7b33903547d1039a815a842b9d2">for example the root of the webserver doesnt support POST method but /data/
+                might support POST method so that is something to look into</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e46136a788d2f9cd06315ca39a4c975e7">
+            <figure class="image">
+              <img style="aspect-ratio:1302/564;" src="6_HTTPS Protocol Fundamental.png"
+              width="1302" height="564">
+            </figure>
+            <ul>
+              <li data-list-item-id="e655514be7977d05d484c2995e2b37b5a">DAV is WebDav server which allows to put copy delete files on the server</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e8623845fa6b3c41890656d8608f0a186">we can upload files using curl</li>
+          <li data-list-item-id="e19eaf6853b4801ca52f20e4ed1547c19">
+            <figure class="image">
+              <img style="aspect-ratio:389/82;" src="10_HTTPS Protocol Fundamental.png"
+              width="389" height="82">
+            </figure>
+            <ul>
+              <li data-list-item-id="ee3332d5b71281153f0ab6d5cf2257ed3">it can work like this?</li>
+            </ul>
+          </li>
+          <li data-list-item-id="ed11e6a1e6e45b5c7bdb7391afc98f5a1"><strong>cat /etc/*release </strong>to get underlying linux distribution</li>
+          <li
+          data-list-item-id="e74345460293983c367e8a0fbb76dbae7">
+            <figure class="image">
+              <img style="aspect-ratio:1300/619;" src="18_HTTPS Protocol Fundamental.png"
+              width="1300" height="619">
+            </figure>
+            <ul>
+              <li data-list-item-id="e62e10f1930eb8fc6fa38b2e7b2b64fe0">you can use <strong>‘+’ or you need to encode special character for browser</strong>
+              </li>
+            </ul>
+            </li>
+        </ul>
+        <hr>
+        <h3>HTTPS</h3>
+        <ul>
+          <li data-list-item-id="ec10cc0eaf7700509aad35669e0b0aefe">
+            <figure class="image">
+              <img style="aspect-ratio:954/534;" src="19_HTTPS Protocol Fundamental.png"
+              width="954" height="534">
+            </figure>
+          </li>
+          <li data-list-item-id="e35c545cf0879570f599dea1f55c7054b">
+            <figure class="image">
+              <img style="aspect-ratio:947/537;" src="HTTPS Protocol Fundamental.png"
+              width="947" height="537">
+            </figure>
+            <p>&nbsp;</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

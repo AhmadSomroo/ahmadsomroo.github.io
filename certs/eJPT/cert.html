@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Certifications</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e2a47;
+      margin: 2rem 0 1rem;
+    }
+
+    /* Certificate gallery grid */
+    .cert-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto 3rem;
+      padding: 1rem;
+    }
+
+    .cert-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .cert-card:hover {
+      transform: scale(1.03);
+    }
+
+    .cert-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .cert-card p {
+      font-weight: bold;
+      color: #1e2a47;
+      margin: 0.5rem 0 0;
+    }
+
+    /* Lightbox modal */
+    .lightbox {
+      display: none; /* hidden by default */
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .lightbox:target {
+      display: flex;
+    }
+
+    /* Close button */
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .lightbox-close:hover {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Certifications</h1>
+
+  <div class="cert-gallery">
+    <a href="#img1" class="cert-card">
+      <img src="cert.png" alt="Certificate 1">
+      <p>eLearn-Junior Pentester</p>
+    </a>
+    <a href="#img2" class="cert-card">
+      <img src="cert.jpg" alt="Certificate 2">
+      <p>Happy Moment</p>
+    </a>
+  </div>
+
+  <!-- Lightbox Modals -->
+  <div id="img1" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="cert.png" alt="Certificate 1">
+  </div>
+
+  <div id="img2" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="cert.jpg" alt="Certificate 2">
+  </div>
+
+</body>
+</html>

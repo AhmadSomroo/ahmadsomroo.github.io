@@ -1,0 +1,279 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Enumeration</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Enumeration</h1>
+
+      <div class="ck-content">
+        <h3>Port Scanning &amp; Enumeration with NMAP</h3>
+        <ul>
+          <li data-list-item-id="e0161c7bc59ecb3608f5fcf151698b639">normal scan to get as much info as possible of the ports&nbsp;</li>
+        </ul>
+        <hr>
+        <h3>Importing NMAP scans into Metasploit Framework</h3>
+        <ul>
+          <li data-list-item-id="e41d2a915e9f3fd5f6ab147a5acbd89c4">db_status in msfconsole to check if we are connected to postgresql, if
+            not run the service using systemctl</li>
+          <li data-list-item-id="ee373c20f24088df18dc8f047845f00e1">create a new wrokspace using "workspace -a name".</li>
+          <li data-list-item-id="e3c7ecce3e79fd99cd4ee471afc93ef46">db_import path_of_file to import the xml file</li>
+          <li data-list-item-id="e8a462812c51b0c0c77c020f122cac80e">hosts to confirm the import.</li>
+          <li data-list-item-id="e01dd9d271bb0729259e3bbc3115f7668">services to see the services in the imported file</li>
+          <li data-list-item-id="e984308c91653883ff39aa6f34f577b75">we can initiate nmap scan from within the metasploit framework</li>
+          <li
+          data-list-item-id="ee37499526706097fd61356424e2dc2d8">db_nmap flags_and_ip here to run the scan ( make another workspace to
+            run a scan on a different ip from the imported file ip)</li>
+        </ul>
+        <hr>
+        <h3>Port Scanning with Auxiliary Modules</h3>
+        <ul>
+          <li data-list-item-id="e9d00fef6f2e02ccad1c6bf839afc98ac">Auxiliary modules allow us to extract information not exploitation.</li>
+          <li
+          data-list-item-id="e3bcadd20806661c0210472b796ba801a">We can use these modules to scan an internal network , which is not facing
+            the external network, from an already exploited machine that is the only.</li>
+            <li
+            data-list-item-id="e9e141341108cd6fc7e616668c7231dbb">We can not run nmap from that machine because that is mostly blocked.</li>
+              <li
+              data-list-item-id="ef675d1aaac5933e6c79540d1a7bd8e23">Transfering binaries to an exploited server/machine to scan internal network
+                is not recommended.</li>
+                <li data-list-item-id="e4202f3b00d2f6900c5b0123c62a2ebc4">
+                  <p>To search for auxiliary modules from within msfconsole type : <strong>search module_name </strong>such
+                    as search portscan.</p>
+                  <figure class="image image_resized" style="width:88.6%;">
+                    <img style="aspect-ratio:805/279;" src="2_Enumeration_image.png" width="805"
+                    height="279">
+                  </figure>
+                </li>
+                <li data-list-item-id="ea4bb71294ddba71b46e6e3953e75b809">next we have to use the module we want which can done via&nbsp;<strong> use full_module_name</strong>
+                </li>
+                <li data-list-item-id="ef206c9e8664e0594a25801bd0810938b">use <strong>show options </strong>to see the option for that selected module.</li>
+                <li
+                data-list-item-id="e2c24be54be2a4c389bc3a7696b19d596">set the relevant option such as RHOSTS, DELAY, PORT RANGE etc.</li>
+                  <li
+                  data-list-item-id="e832d51769e7edcca6c1f94d21efbf625"><strong>run </strong>to start the module.</li>
+                    <li data-list-item-id="e6e5493c764a29f29afa8923423892bf3">we can run linux utilities directly from within msfconsole.</li>
+                    <li data-list-item-id="e6537aeb8c7ae859fc60773564c5e852c">XODA is an application and msfconsole has one module for its exploitation.</li>
+                    <li
+                    data-list-item-id="e976f3b8bcd083ad0ff1f061607da5ee3">TargetURI is the base address of the webapp in msfconsole</li>
+                      <li data-list-item-id="eeef2adaec88587e2e92ec7a0cfb3e36b"><strong>exploit&nbsp;</strong> to run the meterpreter handler</li>
+                      <li data-list-item-id="e292574ef236386736f26e943799026f6">sysinfo to see the system info of the target machine.</li>
+                      <li data-list-item-id="efdc479b94163593a7b3214c61ac5f0ed">Type <strong>shell </strong>&gt; <strong>/bin/bash -i </strong>to get a
+                        shell session to get a bash session through shell session.</li>
+                      <li data-list-item-id="e7bc68a03f8633d0e33558fd19dc558fa">Do ifconfig to see the other network that the victim machine is connected
+                        to.</li>
+                      <li data-list-item-id="e56ddc6af1bf2f0e0a7b0e9b16e59c8f9">we can add the route in the meterpreter&nbsp;<strong> run autoroute -s ip_here </strong>(-s
+                        is the subnet) ( ip is of the other network interface in the internal network
+                        of the target)</li>
+                      <li data-list-item-id="e8d188dae736890b2633f57b714ee253c">so what we are doing is using the actual target to scan one of the other
+                        machines in its internal network.</li>
+                      <li data-list-item-id="eeeb23a74939e67ef9250f1609adb2ac2">A command <strong>background </strong>is used to send the current session
+                        to the background allowing us to run other commands in the meterpreter
+                        session.</li>
+                      <li data-list-item-id="ebb6ec258d96aca955437f6fb3f99addb">we can check the active sessions in the meterpreter by typing <strong>sessions </strong>.</li>
+                      <li
+                      data-list-item-id="e29e8c91a7a24106d212f8efc2120ffd4">after this we do a port scan on the target system as normal but this time
+                        we added a route so now we are actually scanning the second machine thorugh
+                        the first target.</li>
+                        <li data-list-item-id="ecca2def8109634a1cbd9b6c8b607638b"><strong>back </strong>command ends the current module and goes ack to
+                          msf&gt;</li>
+                        <li data-list-item-id="ec247d54833c0e1c5d784c66fea601668">udp_sweep module to discover live hosts on the network using udp packets.</li>
+        </ul>
+        <hr>
+        <h3>FTP Enumeration using msfconsole</h3>
+        <ul>
+          <li data-list-item-id="e75483fb431a1e2bde712e86efe505693">is TCP</li>
+          <li data-list-item-id="e7114d397fd02f0abd77fd622688f40f5">in msfconsole we can do <strong>search type:auxiliary name:ftp </strong>to
+            search for tye based modules</li>
+          <li data-list-item-id="e2edc18e52a27292986be1b000952fd98">we can check the version of the service using version modules</li>
+          <li
+          data-list-item-id="e5de09f210840cdc4f9d428d96e9d7f6d">than search for the modules with version name to see the modules available
+            for the version of the service</li>
+            <li data-list-item-id="e4b6aa24cb08637fd6ab4eee6b9a9a368">ftp_login module is used to brute force the authentication of the ftp</li>
+            <li
+            data-list-item-id="ef0cc0a219d1a9e2545318725db283bee">metasploit has a really good wordlist in /ur/share/metasploit-framework/data/wordlists/</li>
+              <li
+              data-list-item-id="e66be162dd814ba6474f5b40032b985bf">bruteforcing can make the service overwhelmed and stop connection for
+                sometime.</li>
+        </ul>
+        <hr>
+        <h3>SMB Enumeration</h3>
+        <ul>
+          <li data-list-item-id="e31cc7714ba949f4349b673334c978ae1">SMB is a network file sharing protocol which helps to share the file over
+            a local network.</li>
+          <li data-list-item-id="e2e98f5f5702c2be82148a4c4e1d0542a">A printer and such devices use this protocol.</li>
+          <li data-list-item-id="e7fb03423fd9d3e8c45e7a696249ece12">SMB ran on top NetBIOS using port 139 originally, but in newer version
+            it uses port 445.</li>
+          <li data-list-item-id="ed2c4e7409497518fffc69b7ed213bd27">SAMBA is linux version of SMB, also allowing windows systems to access
+            Linux shares and devices.</li>
+          <li data-list-item-id="e2dff7744fe390e88bf55f036c69341e3">We can set global variables which can be used to set the value of certain
+            variables such as RHOSTS for all the &nbsp;modules</li>
+          <li class="ck-list-marker-bold"
+          data-list-item-id="eddf6f4d6fc1a63c27390a0354e17893b"><strong>setg RHOSTS ip_here.</strong>
+          </li>
+          <li data-list-item-id="e094a148c47269efb5cc6f5894b1b8d51"><strong>info </strong>to learn more about the module of a metasploit framework</li>
+          <li
+          data-list-item-id="e2f73ecdb8b2a8454fff00bd45daebd4f">
+            <p>The smb_enumshares module gives the users whose shares can be accessed
+              if their username and pass are known</p>
+            <figure class="image">
+              <img style="aspect-ratio:692/199;" src="5_Enumeration_image.png" width="692"
+              height="199">
+            </figure>
+            </li>
+            <li data-list-item-id="e7ebab63dc9317d62f55003bebec24240">we can use utility <strong>smbclient -L \\\\ip_here\\ -U admin</strong>
+            </li>
+            <li data-list-item-id="e77abdbfd59cc9b8ec93a535346f9ce6f"><strong>sm_loginchecker </strong>allows us to brute force login</li>
+            <li
+            data-list-item-id="e788ac63828b2d5dc3ef25ca45b23364f">Meaning of the Slashes
+              <ul>
+                <li data-list-item-id="ee78d0d08428cf7ee4746fe005a0bd50b"><code>//</code> → This says: <strong>"This is an SMB network location."</strong>
+                </li>
+                <li data-list-item-id="eab7994b1b9ee143429e189938a290317"><code>10.10.10.5</code> → The IP address of the SMB server.</li>
+                <li data-list-item-id="e2d71da733db13c39697dd27d721e2258"><code>/</code> → This trailing slash means: <strong>"Look at the root of this SMB host — show me all shared folders (shares)."</strong>
+                </li>
+                <li data-list-item-id="ec988f14478a212e6f4a9926f58b99c15">This shows all the <strong>shared folders</strong> the <code>admin</code> user
+                  can see on the machine <code>10.10.10.5</code>.</li>
+              </ul>
+              </li>
+              <li data-list-item-id="ef5303fc59015153d584ded52ed15f392"><strong>smbclient -L \\\\ip_here\\share_name_here -U admin </strong>to
+                login as that user and then see what files are shared for this user(you
+                should know the pass for admin tho)</li>
+              <li data-list-item-id="e02a0d16c48cbd00b75b15db3485a8c18">
+                <p>nmblookup is another utility to enumerate&nbsp;</p>
+                <figure class="image">
+                  <img style="aspect-ratio:464/223;" src="8_Enumeration_image.png" width="464"
+                  height="223">
+                </figure>
+              </li>
+              <li data-list-item-id="e3ab880902795f5d012df9bdff2420708"><code>rpcclient</code> is a command-line tool from the <strong>Samba suite</strong> that
+                allows you to:
+                <ul>
+                  <li data-list-item-id="ecd5399ac15d32c994c09b5cf4c57a7c6">🛠️ Interact with <strong>Windows services over SMB (port 445)</strong> using <strong>RPC (Remote Procedure Call)</strong>
+                  </li>
+                  <li data-list-item-id="e51ea539e3b214366e65603fdfeb3076b">It's mainly used for <strong>enumeration</strong> — users, groups, policies,
+                    shares, SIDs, and more.</li>
+                </ul>
+              </li>
+              <li data-list-item-id="ef0548734db8978da0fb1e53689477bf5">enum4linux is good for enumerating smb</li>
+              <li data-list-item-id="e21a8202f05ba34fc5b749195efa2ff61">you can use a wordlist to search for hidden shares</li>
+        </ul>
+        <hr>
+        <h3>Web Server Enumeration</h3>
+        <ul>
+          <li data-list-item-id="e8557e96e956686c3ccbef1831ee9f441">http_version</li>
+          <li data-list-item-id="e4d071194f1e38426f92d92204bece96c">http_header</li>
+          <li data-list-item-id="ed0311883bc367caf6612405878398d45">robots_txt</li>
+          <li data-list-item-id="eff8e053c8e8cb89dbba9f10397dac92c">dir_scanner (for directory brute forcing)</li>
+          <li data-list-item-id="e51196b6e020e4d175e9c86b3cf1a288d">files_dir (for brute forcing exisiting files)</li>
+          <li data-list-item-id="ec0f1bb0f44448a5c97675ffca6fef099">http_login
+            <ul>
+              <li data-list-item-id="e9c5d5bd0a13b0491ca2daad62c3e33c2">In the Metasploit <code>http_login</code> module, the <code>AUTH_URI</code> option
+                tells the scanner:</li>
+              <li data-list-item-id="e64826b0276170ea21f3f854f021b3bfe">📍 Which HTTP path/endpoint to send the login requests to (i.e., the login
+                form or API path).</li>
+            </ul>
+          </li>
+          <li data-list-item-id="e28556eab75e06b8bd6ee60712d450e88"><strong>unset</strong> command to unset an option in the msfconsole</li>
+          <li
+          data-list-item-id="e887d12a613c7b1759ecf901d41c0b241">apache_userdidr_enum</li>
+            <li data-list-item-id="ec8a02a16ab69170bdd5304824778adfb">brute_dirs</li>
+            <li data-list-item-id="eacaee826d35e448c6ee49c3f0522ec0a">dir_list</li>
+            <li data-list-item-id="e4ba1de103d5105d1ac4155abb4c085a3">http_put</li>
+            <li data-list-item-id="e3753cd57fa880ed49498585c2beb81f0">These are all the auxiliary modules above</li>
+        </ul>
+        <hr>
+        <h3>MySQL Enumeration</h3>
+        <ul>
+          <li data-list-item-id="e336dde6f46c20c069d34ce3db3221541">first thing we need to do is to find the version of mysql running on the
+            target system</li>
+          <li data-list-item-id="ef33b2242041accdf1035d124bb8f6f48">mysql_login (performs brute force login attack)</li>
+          <li data-list-item-id="ef6b40a48a7c21c5589870636d5cba987">Normal and repetitive shit just like above</li>
+          <li data-list-item-id="eb3bc6e7ffb723c48921bfefacf2e4238">mysql_sql(allows us to execute sql queries)</li>
+          <li data-list-item-id="e26439a85be00ea521f5c4da7d7361435">
+            <p>add query here</p>
+            <figure class="image image_resized" style="width:68%;">
+              <img style="aspect-ratio:503/185;" src="1_Enumeration_image.png" width="503"
+              height="185">
+            </figure>
+          </li>
+          <li data-list-item-id="efb026922d1b4023252612b33b635f289">mysql_schemadump ( displays all the tables)</li>
+          <li data-list-item-id="e230e168035665bcc747a18554e2b63ec">
+            <p>mysql utlity in linux to interact with mysql service remotely</p>
+            <figure
+            class="image image-style-align-center">
+              <img style="aspect-ratio:646/187;" src="Enumeration_image.png" width="646"
+              height="187">
+              </figure>
+          </li>
+          <li data-list-item-id="e20f432ee8303a6b867d3ee3cbd94f0cc">
+            <p><strong>creds </strong>to dump the credentials</p>
+            <figure class="image">
+              <img style="aspect-ratio:845/215;" src="3_Enumeration_image.png" width="845"
+              height="215">
+            </figure>
+            <hr>
+            <h3>SSH Enumeration</h3>
+          </li>
+          <li data-list-item-id="ee51bbe279ec3f71bf607851a5b0bf90a">same as above, use modules</li>
+        </ul>
+        <hr>
+        <h3>SMTP Enumeration</h3>
+        <ul>
+          <li data-list-item-id="ec37f7952e7c39837e15b3defd7ea0e5e">same modules</li>
+          <li data-list-item-id="ef06e27d02aa06a2db72abdba1a70b783">you can connect to smtp servie using netcat and telnet</li>
+          <li data-list-item-id="efe667c23ce4ece233fba9e8b3b87ec29">VRFY <em>user_name </em>(to see if a user exits)</li>
+          <li data-list-item-id="e65179a30e0c2263cebf7f56fac4c224e">EHLO <em>server_name </em>(to see what commands are available to execute)</li>
+          <li
+          data-list-item-id="ee7a6da7e805e6665b6bd48f724053fd1">PIPELINING&nbsp;&nbsp;&nbsp;&nbsp;Allows multiple commands sent in one
+            go for performance (used in scripts).
+            <ul>
+              <li data-list-item-id="eddfe06c911dd9cec352ebc92fdd38774"><u>this command and the ones below it are informational.</u>
+              </li>
+            </ul>
+            </li>
+            <li data-list-item-id="e154800d7e5f506e308403f8bc067793d">SIZE 10240000&nbsp;&nbsp;&nbsp;&nbsp;Server accepts messages up to 10MB.</li>
+            <li
+            data-list-item-id="e30ddcae85fd3bc86329bd9f048f6c6eb">ENHANCEDSTATUSCODES&nbsp;&nbsp;&nbsp;&nbsp;Enables extended error messages
+              (helps with troubleshooting).</li>
+              <li data-list-item-id="e118ae964c796256549ae9585a74300d1">8BITMIME&nbsp;&nbsp;&nbsp;&nbsp;Accepts 8-bit content (e.g., non-ASCII
+                characters).</li>
+              <li data-list-item-id="ebdbfb7c45393b0e5c48121fc3b8806d2">DSN&nbsp;&nbsp;&nbsp;&nbsp;Delivery Status Notification supported.</li>
+              <li
+              data-list-item-id="ed0fdb7f6585c2660884b3b2d5bbf926e">SMTPUTF8&nbsp;&nbsp;&nbsp;&nbsp;Accepts UTF-8 encoded email addresses
+                or content.</li>
+                <li data-list-item-id="e4a4503609683cbaee420d567bf0782cf">
+                  <p>smtp-user-enum is a utility (who knew)</p>
+                  <figure class="image">
+                    <img style="aspect-ratio:887/499;" src="4_Enumeration_image.png" width="887"
+                    height="499">
+                  </figure>
+                </li>
+                <li data-list-item-id="ed083a825226b6c9995743340faed84d3">
+                  <p>A way to send email using telnet&nbsp;</p>
+                  <figure class="image">
+                    <img style="aspect-ratio:582/538;" src="6_Enumeration_image.png" width="582"
+                    height="538">
+                  </figure>
+                </li>
+                <li data-list-item-id="e52c480844965f71bcfce0fef002b4974">
+                  <p>You can send email to anyone on the planet if the email server allows
+                    it</p>
+                  <figure class="image">
+                    <img style="aspect-ratio:971/638;" src="7_Enumeration_image.png" width="971"
+                    height="638">
+                  </figure>
+                  <p>&nbsp;</p>
+                </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

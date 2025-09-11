@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Splunk Project | Ahmad Abdullah</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    body {
+      background: #f9f9fb;
+      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h2, h3 {
+      color: #1e2a47;
+      margin-top: 2rem;
+    }
+    h1 {
+      color: #509950;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      font-display: swap;
+    }
+    pre {
+      background: #1e2a47;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    .back-link {
+      display: inline-block;
+      margin: 1rem 0;
+      color: #302a79;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      color: #2b58c2;
+    }
+
+    /* ✅ New CSS for the image */
+    .project-image {
+      display: block;
+      margin: 1rem auto;   /* centers the image */
+      max-width: 70%;      /* makes it smaller, responsive */
+      border-radius: 8px;  /* optional: rounded corners */
+    }
+  </style>
+</head>
+<body>
+  <a href="../../index.html" class="back-link">← Back to Portfolio</a>
+
+  <h1>Splunk</h1>
+  <img src="overview.png" alt="Splunk Overview" class="project-image">
+
+  <h2>Introduction</h2>
+  <p>
+    This project involves using Splunk to detect common malicious events across multiple devices.
+    We forwarded logs from each device into a Splunk receiver and generated alerts based on rules.
+    The main events analyzed were:
+  </p>
+  <ul>
+    <li>Network Traffic Analysis</li>
+    <li>Suspicious File Download</li>
+    <li>Data Exfiltration</li>
+  </ul>
+
+  <h2>Tools Used</h2>
+  <ul>
+    <li><strong>Splunk</strong> – Centralized log collection, analysis, and alerting.</li>
+    <li><strong>Suricata</strong> – High-performance IDS/IPS for detecting anomalies.</li>
+    <li><strong>Snort</strong> – NIDS/NIPS for monitoring malicious activities.</li>
+    <li><strong>UFW</strong> – Simple firewall for Linux logging.</li>
+    <li><strong>Nmap</strong> – Port scanning and security auditing.</li>
+    <li><strong>Rsyslog</strong> – Log forwarding and centralized log management.</li>
+  </ul>
+
+  <h2>Setups</h2>
+  <h3>Splunk Enterprise on Windows</h3>
+  <ol>
+    <li>Downloaded Splunk Enterprise installer.</li>
+    <li>Ran installer, accepted license, and set up admin credentials.</li>
+    <li>Configured indexes and ports for log forwarding.</li>
+  </ol>
+
+  <h3>Splunk Universal Forwarder on Kali Linux</h3>
+  <ol>
+    <li>Downloaded and installed Splunk Forwarder (.deb package).</li>
+    <li>Started the service and enabled boot-start.</li>
+    <li>Configured forwarder to send logs to Splunk Enterprise.</li>
+  </ol>
+
+  <h2>Implementations</h2>
+  <h3>1. Network Traffic Analysis</h3>
+  <p>Used UFW logs to detect port scanning. Logs were forwarded to Splunk.</p>
+  <pre>
+index=network_log "PROTO=TCP" "SYN" 
+| stats count by SRC 
+| where count > 50
+  </pre>
+  <p>This detects excessive SYN packets from one source IP → potential port scan.</p>
+
+  <h3>2. Suspicious File Download</h3>
+  <p>Used Suricata on Windows to detect malicious downloads (.exe, .docm, etc).</p>
+  <pre>
+index="file_transfer" "http" 
+| spath app_proto 
+| search app_proto=http 
+| spath "http.url" 
+| search ".exe" OR ".pdf" OR ".sh" OR ".docm" OR ".xlsm" OR ".bat" OR ".bin" OR ".dll"
+  </pre>
+
+  <h3>3. Data Exfiltration</h3>
+  <p>Monitored large data transfers (>100 MB) via Suricata. Below is the query used in SPL to identify such transfers. Index "file_transfer" gets all the relevant logs that can be used to detect data exfiltration.</p>
+  <pre>
+index="file_transfer" 
+| spath "http.length" 
+| search "http.length">=10000000
+  </pre>
+
+  <a href="../index.html" class="back-link">← Back to Portfolio</a>
+</body>
+</html>
